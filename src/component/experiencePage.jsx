@@ -1,5 +1,5 @@
 import React from 'react';
-import './ExperiencePage.css';
+import './experiencePage.css';
 import experienceImg from '../assets/bytech.jpeg';
 const ExperiencePage = React.forwardRef((props, ref) => {
   return (
