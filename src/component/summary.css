@@ -1,0 +1,86 @@
+.cv-page {
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+  box-sizing: border-box;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  overflow: hidden;
+}
+
+.cv-header {
+  border-bottom: 3px solid #667eea;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+.cv-name {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin: 0 0 5px 0;
+  letter-spacing: 1px;
+}
+
+.cv-title {
+  font-size: 16px;
+  font-weight: normal;
+  color: #667eea;
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+.cv-contact {
+  font-size: 11px;
+  color: #555;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.cv-contact p {
+  margin: 2px 0;
+}
+
+.cv-links {
+  margin-top: 5px;
+}
+
+.cv-links a {
+  color: #667eea;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.cv-links a:hover {
+  text-decoration: underline;
+}
+
+.cv-links span {
+  color: #999;
+  margin: 0 3px;
+}
+
+.cv-section {
+  margin-bottom: 20px;
+}
+
+.cv-section-title {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  text-transform: uppercase;
+  border-bottom: 2px solid #667eea;
+  padding-bottom: 5px;
+  margin: 0 0 10px 0;
+  letter-spacing: 1px;
+}
+
+.cv-text {
+  font-size: 12px;
+  line-height: 1.6;
+  color: #444;
+  text-align: justify;
+  margin: 0;
+}

@@ -1,0 +1,136 @@
+.volunteer-page {
+  width: 100%;
+  height: 100%;
+  padding: 25px;
+  box-sizing: border-box;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  overflow: hidden;
+}
+
+.volunteer-section-title {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  text-transform: uppercase;
+  border-bottom: 2px solid #f093fb;
+  padding-bottom: 5px;
+  margin: 0 0 15px 0;
+  letter-spacing: 1px;
+}
+
+.volunteer-content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  flex: 1;
+}
+
+.volunteer-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  background: linear-gradient(135deg, #f093fb15 0%, #f5576c15 100%);
+  padding: 15px;
+  border-radius: 10px;
+  border-left: 4px solid #f093fb;
+}
+
+.volunteer-icon {
+  font-size: 32px;
+  line-height: 1;
+}
+
+.volunteer-info {
+  flex: 1;
+}
+
+.organization-name {
+  font-size: 15px;
+  font-weight: bold;
+  color: #f093fb;
+  margin: 0 0 5px 0;
+  line-height: 1.3;
+}
+
+.volunteer-role {
+  font-size: 12px;
+  color: #555;
+  margin: 0;
+  font-weight: 500;
+}
+
+.volunteer-description {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.intro-text {
+  font-size: 11px;
+  line-height: 1.7;
+  color: #444;
+  text-align: justify;
+  margin: 0;
+  padding: 12px;
+  background: #fafafa;
+  border-radius: 8px;
+  border: 1px solid #f0f0f0;
+}
+
+.responsibilities {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.responsibility-item {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.bullet-icon {
+  width: 20px;
+  height: 20px;
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  flex-shrink: 0;
+  color: white;
+  margin-top: 2px;
+}
+
+.responsibility-item p {
+  font-size: 11px;
+  line-height: 1.6;
+  color: #444;
+  margin: 0;
+  flex: 1;
+}
+
+.volunteer-image-placeholder {
+  width: 80%;
+  height: 110px;
+  background: linear-gradient(135deg, #f093fb20 0%, #f5576c20 100%);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 50% solid #f093fb30;
+  overflow: hidden;
+  box-shadow: 0 3px 12px rgba(240, 147, 251, 0.2);
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.volunteer-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}

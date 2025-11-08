@@ -1,0 +1,99 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.book-viewport {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #0f0c29 0%, #302b63 25%, #41336b 50%, #24243e 75%, #141414 100%);
+}
+
+@media (max-width: 768px) {
+  .book-viewport {
+    padding: 20px; /* مسافة من الحواف */
+  }
+
+  .flip-book {
+    transform: scale(0.8);
+  }
+}
+
+/* الشاشات الصغيرة جداً */
+@media (max-width: 480px) {
+  .flip-book {
+    transform: scale(0.6);
+  }
+}
+
+
+
+.flip-book {
+  border-radius: 6px; 
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+/* Hover فقط للشاشات الكبيرة */
+@media (min-width: 769px) {
+  .flip-book:hover {
+    transform: scale(1.05);
+  }
+}
+
+/* الشاشات الصغيرة: نوقف أي hover */
+@media (max-width: 768px) {
+  .flip-book:hover {
+    transform: none; /* أو transform: scale(1); */
+  }
+}
+
+
+
+.demoPage {
+  background: hsl(0, 13%, 78%);
+  color: #333;
+  border: 1px solid #e0e0e0;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-size: 16px;
+  line-height: 1.7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.05);
+}
+
+.demoPage::after {
+  content: counter(page);
+  counter-increment: page;
+  position: absolute;
+  bottom: 15px;
+  font-size: 12px;
+  color: #999;
+  font-style: italic;
+}
+
+/* .demoPage:nth-child(odd)::after {
+  right: 25px;
+} */
+
+/* .demoPage:nth-child(even)::after {
+  left: 25px;
+} */
+
+.demoPage:nth-child(even) {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.03) 0%, transparent 10%);
+}
+
+.demoPage:nth-child(odd) {
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.03) 0%, transparent 10%);
+}
+
+.flip-book {
+  counter-reset: page;
+}

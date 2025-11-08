@@ -1,0 +1,86 @@
+.education-page {
+  width: 100%;
+  height: 100%;
+  padding: 25px;
+  box-sizing: border-box;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  overflow: hidden;
+}
+
+.education-image-placeholder {
+  width: 100%;
+  height: 140px;
+  background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
+  border-radius: 8px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed #667eea40;
+  overflow: hidden;
+}
+
+.education-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.education-content {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.education-section-title {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  text-transform: uppercase;
+  border-bottom: 2px solid #667eea;
+  padding-bottom: 5px;
+  margin: 0 0 15px 0;
+  letter-spacing: 1px;
+}
+
+.education-item {
+  margin-bottom: 15px;
+}
+
+.university-name {
+  font-size: 15px;
+  font-weight: bold;
+  color: #667eea;
+  margin: 0 0 5px 0;
+}
+
+.degree {
+  font-size: 13px;
+  color: #333;
+  margin: 0 0 3px 0;
+  font-weight: 500;
+}
+
+.years {
+  font-size: 11px;
+  color: #666;
+  margin: 0;
+  font-style: italic;
+}
+
+.education-description {
+  margin-top: 12px;
+  text-align: right;
+  direction: rtl;
+}
+
+.education-description p {
+  font-size: 11px;
+  line-height: 1.7;
+  color: #444;
+  text-align: justify;
+  margin: 0 0 10px 0;
+}
