@@ -22,7 +22,7 @@ const Technicalskills = React.forwardRef((props, ref) => {
         <img src={trainingImg} alt="Training Courses" className="training-image" />
       </div> */}
 
-      <h3 className="training-section-title">TRAINING COURSES</h3>
+      <h3 className="training-section-title">Technical Skills</h3>
       
       <div className="courses-grid">
         {courses.map((course, index) => (
