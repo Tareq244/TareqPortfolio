@@ -1,5 +1,5 @@
 import React from 'react';
-import './TrainingPage.css';
+import './trainingPage.css';
 import trainingImg from '../assets/api.png';
 
 const TrainingPage = React.forwardRef((props, ref) => {
