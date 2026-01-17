@@ -2,6 +2,7 @@ body, html {
   margin: 0;
   padding: 0;
   height: 100%;
+  overflow: hidden;
 }
 .book-viewport {
   width: 100vw;
@@ -13,6 +14,9 @@ body, html {
 }
 
 @media (max-width: 768px) {
+  body{
+    overflow: auto;
+  }
   .book-viewport {
     padding: 20px; /* مسافة من الحواف */
   }
@@ -38,9 +42,9 @@ body, html {
 
 /* Hover فقط للشاشات الكبيرة */
 @media (min-width: 769px) {
-  .flip-book:hover {
+  /* .flip-book:hover {
     transform: scale(1.05);
-  }
+  } */
 }
 
 /* الشاشات الصغيرة: نوقف أي hover */
