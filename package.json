@@ -13,7 +13,8 @@
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-pageflip": "^2.0.3",
-    "react-router-dom": "^7.9.5"
+    "react-router-dom": "^7.9.5",
+    "react-snowfall": "^2.4.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.36.0",

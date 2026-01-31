@@ -28,7 +28,8 @@ function Book() {
                 height={550}
                 showCover={true} 
                 flippingTime={1000} 
-                maxShadowOpacity={0.5} 
+                maxShadowOpacity={0.5}
+                startPage={0}
                 className="flip-book" 
             >
                 <Page number="1"><Cover /></Page>

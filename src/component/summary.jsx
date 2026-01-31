@@ -19,6 +19,8 @@ const Summary = React.forwardRef((props, ref) => {
           <a href="https://github.com/Tareq244" target="_blank">GitHub</a>
           <span>||</span>
           <a href="#" target="_blank">Portfolio</a>
+          <span>||</span>
+          <a href="https://www.npmjs.com/package/@tareqalsadaqa/subtitleinbubble" target="_blank">NPM</a>
         </div>
       </div>
 

@@ -74,7 +74,7 @@
 .education-description {
   margin-top: 12px;
   text-align: right;
-  direction: rtl;
+  direction: ltr;
 }
 
 .education-description p {
