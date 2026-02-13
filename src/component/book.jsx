@@ -44,7 +44,7 @@ function Book() {
 
   return (
     <div className="book-viewport">
-      <button onClick={prevPage} className="nav-btn left">
+      <button onClick={prevPage} onTouchStart={prevPage} className="nav-btn left">
         <ChevronLeft size={28} />
       </button>
       <HTMLFlipBook
@@ -91,7 +91,7 @@ function Book() {
           <Cover />
         </Page>
       </HTMLFlipBook>
-      <button onClick={nextPage} className="nav-btn right">
+      <button onClick={nextPage} onTouchStart={nextPage} className="nav-btn right">
         <ChevronRight size={28} />
       </button>
     </div>
