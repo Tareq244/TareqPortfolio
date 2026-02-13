@@ -16,7 +16,6 @@ body, html {
 @media (max-width: 768px) {
 
   .book-viewport {
-    padding: 20px;
   }
 
   .flip-book {
@@ -49,7 +48,6 @@ body, html {
 @media (max-width: 768px) {
   .flip-book:hover {
     transform: none;
-    margin-right: 70px;
   }
 
 }
@@ -150,4 +148,10 @@ background: linear-gradient(145deg, #a78bfa, #8b5cf6);
 
 .right {
   right: 10%;
+}
+
+@media (max-width: 768px){
+  .left, .right{
+    top: 90%
+  }
 }
