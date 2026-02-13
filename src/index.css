@@ -14,12 +14,8 @@ body, html {
 }
 
 @media (max-width: 768px) {
-
-  .book-viewport {
-  }
-
   .flip-book {
-    transform: scale(0.8);
+    transform: scale(0.2);
   }
 }
 
@@ -148,10 +144,4 @@ background: linear-gradient(145deg, #a78bfa, #8b5cf6);
 
 .right {
   right: 10%;
-}
-
-@media (max-width: 768px){
-  .left, .right{
-    top: 90%
-  }
 }

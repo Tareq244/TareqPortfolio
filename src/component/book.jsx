@@ -44,9 +44,10 @@ function Book() {
 
   return (
     <div className="book-viewport">
-      <button onClick={prevPage} onTouchStart={prevPage} className="nav-btn left">
+      {!isMobile && (
+      <button onClick={prevPage} className="nav-btn left">
         <ChevronLeft size={28} />
-      </button>
+      </button>)}
       <HTMLFlipBook
         ref={bookRef}
         width={isMobile ? 280 : 400}
@@ -56,8 +57,6 @@ function Book() {
         maxShadowOpacity={0.5}
         startPage={0}
         disableFlipByClick={true}
-        useMouseEvents={false} // 👈 مهم
-        usePortrait={true}
         className="flip-book"
       >
         <Page>
@@ -91,9 +90,10 @@ function Book() {
           <Cover />
         </Page>
       </HTMLFlipBook>
-      <button onClick={nextPage} onTouchStart={nextPage} className="nav-btn right">
+      {!isMobile &&(
+      <button onClick={nextPage} className="nav-btn right">
         <ChevronRight size={28} />
-      </button>
+      </button>)}
     </div>
   );
 }
