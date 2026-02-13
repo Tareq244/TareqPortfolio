@@ -9,6 +9,11 @@
   text-align: left;
   overflow: hidden;
 }
+@media (max-width: 768px) {
+  .volunteer-page{
+    overflow: auto;
+  }
+}
 
 .volunteer-section-title {
   font-size: 14px;

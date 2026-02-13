@@ -9,7 +9,11 @@
   text-align: left;
   overflow: hidden;
 }
-
+@media (max-width: 768px) {
+  .experience-page{
+    overflow: auto;
+  }
+}
 .experience-section-title {
   font-size: 14px;
   font-weight: bold;

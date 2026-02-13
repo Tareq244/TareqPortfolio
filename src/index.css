@@ -14,11 +14,9 @@ body, html {
 }
 
 @media (max-width: 768px) {
-  body{
-    overflow: auto;
-  }
+
   .book-viewport {
-    padding: 20px; /* مسافة من الحواف */
+    padding: 20px;
   }
 
   .flip-book {
@@ -50,8 +48,10 @@ body, html {
 /* الشاشات الصغيرة: نوقف أي hover */
 @media (max-width: 768px) {
   .flip-book:hover {
-    transform: none; /* أو transform: scale(1); */
+    transform: none;
+    margin-right: 70px;
   }
+
 }
 
 
@@ -102,3 +102,52 @@ body, html {
   counter-reset: page;
 }
 
+/* زر عام */
+.nav-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+background: linear-gradient(145deg, #a78bfa, #8b5cf6);
+
+  color: white;
+
+  box-shadow:
+    0 10px 25px rgba(0,0,0,0.3),
+    inset 0 -3px 8px rgba(0,0,0,0.4),
+    inset 0 3px 8px rgba(255,255,255,0.1);
+
+  transition: all 0.3s ease;
+  z-index: 1000;
+}
+
+/* Hover Effect */
+.nav-btn:hover {
+  transform: translateY(-50%) scale(1.1);
+  box-shadow:
+    0 15px 35px rgba(0,0,0,0.4),
+    inset 0 -3px 10px rgba(0,0,0,0.5),
+    inset 0 3px 10px rgba(255,255,255,0.2);
+}
+
+/* Click Effect */
+.nav-btn:active {
+  transform: translateY(-50%) scale(0.95);
+}
+
+/* أماكنهم */
+.left {
+  left: 10%;
+}
+
+.right {
+  right: 10%;
+}

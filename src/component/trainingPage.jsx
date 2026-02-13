@@ -30,7 +30,7 @@ const TrainingPage = React.forwardRef((props, ref) => {
     },
     { name: "Backend Developer", provider: "EMAN", pdf: "voulnteer.pdf" },
     { name: "Machine Learning", provider: "The Hope" },
-    { name: "Java script", provider: "Udemy" },
+    { name: "Java script", provider: "Udemy", pdf:"JavaScript-udemy.pdf" },
     { name: "Communication", provider: "Accenture", pdf: "/Communication.pdf"},
     { name: "Be Digital", provider: "Accenture", pdf: "/Be-Digital.pdf"},
     { name: "Ilhame", provider: "EFE", pdf: "/efe-Ilhame.jpg"},

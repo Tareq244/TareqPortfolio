@@ -9,7 +9,11 @@
   text-align: left;
   overflow: hidden;
 }
-
+@media (max-width: 768px) {
+  .cv-page{
+    overflow: auto;
+  }
+}
 .cv-header {
   border-bottom: 3px solid #667eea;
   padding-bottom: 15px;
