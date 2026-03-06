@@ -23,7 +23,7 @@ const ProjectsPage = React.forwardRef((props, ref) => {
         "Deployed and accessible via LMS System",
       ],
       link: true,
-      href: "https://petite-pre.vercel.app/"
+      href: "https://ptpr.vercel.app/"
     },
     {
       name: "Mindful",
@@ -33,7 +33,27 @@ const ProjectsPage = React.forwardRef((props, ref) => {
         "Deployed and accessible via LMS System",
       ],
       link: true,
-      href: "#"
+      href: "https://mfg1.vercel.app/"
+    },
+    {
+      name: "grand-prix",
+      details: [
+        "React 17 Vite",
+        "Turning stories into interactive web projects",
+        "Deployed and accessible via LMS System",
+      ],
+      link: true,
+      href: "https://grand-prix-eta.vercel.app/"
+    },
+    {
+      name: "Marble-strategy",
+      details: [
+        "React 17 Next.tsx",
+        "is a strategy game where players move marbles on a board to outplay their opponent.",
+        "The goal is to control positions and make smart moves to win the game.",
+      ],
+      link: true,
+      href: "https://marble-strategy.vercel.app/"
     },
     {
       name: "livefeed",
