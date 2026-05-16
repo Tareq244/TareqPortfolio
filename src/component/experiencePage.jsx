@@ -17,7 +17,7 @@ const ExperiencePage = React.forwardRef((props, ref) => {
           <div className="company-header">
             <h4 className="company-name">Bytech</h4>
             <p className="job-title">Fullstack Developer</p>
-            <p className="job-period">Oct 2024 – Present</p>
+            <p className="job-period">Oct 2025 – April 2026</p>
           </div>
 
           <ul className="experience-list">

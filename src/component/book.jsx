@@ -5,6 +5,7 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 import Cover from "./cover.jsx";
 import Summary from "./summary.jsx";
 import EducationPage from "./educationPage.jsx";
+import ExperiencePage1 from "./experiencePage1.jsx";
 import ExperiencePage from "./experiencePage.jsx";
 import TrainingPage from "./trainingPage.jsx";
 import VolunteerPage from "./volunteerPage.jsx";
@@ -69,6 +70,9 @@ function Book() {
           <EducationPage />
         </Page>
         <Page>
+          <ExperiencePage1 />
+        </Page>
+        <Page>
           <ExperiencePage />
         </Page>
         <Page>
@@ -80,9 +84,9 @@ function Book() {
         <Page>
           <ProjectPage />
         </Page>
-        <Page>
+        {/* <Page>
           <SoftSkills />
-        </Page>
+        </Page> */}
         <Page>
           <Technicalskills />
         </Page>

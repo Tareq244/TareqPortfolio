@@ -5,36 +5,20 @@ import trainingImg from "../assets/api.png";
 const TrainingPage = React.forwardRef((props, ref) => {
   const courses = [
     { name: "ASP.NET", provider: "The Hope", pdf: "/certificate_Asp.Net.pdf" },
-    { name: "Angular Course", provider: "Maaref Platform" },
-    {
-      name: "Flutter Course",
-      provider: "Efe organization",
-      pdf: "/efe-Flutter.jpg",
-    },
-    {
-      name: "Build 20 Frontend Websites (HTML, CSS, JavaScript)",
-      provider: "Udemy",
-      pdf: "/WebProject.pdf",
-    },
-    { name: "React.js Course", provider: "Maaref Platform" },
-    { name: "SQL Server Course", provider: "YouTube" },
-    {
-      name: "HTML5, CSS, JavaScript",
-      provider: "Orange academy",
-      pdf: "/orange.pdf",
-    },
-    {
-      name: "OWASP",
-      provider: "EMAN",
-      pdf: "Security.pdf",
-    },
+    {name: "Flutter Course", provider: "Efe organization", pdf: "/efe-Flutter.jpg" },
+    {name: "Build 20 Frontend Websites (HTML, CSS, JavaScript)", provider: "Udemy", pdf: "/WebProject.pdf",},
+    {name: "HTML5, CSS, JavaScript",provider: "Orange academy",pdf: "/orange.pdf",},
+    {name: "OWASP",provider: "EMAN", pdf: "Security.pdf"},
     { name: "Backend Developer", provider: "EMAN", pdf: "voulnteer.pdf" },
-    { name: "Machine Learning", provider: "The Hope" },
+    {name: "Machine Learning",provider: "The Hope",pdf: "/certificate_ML.pdf",},
     { name: "Java script", provider: "Udemy", pdf: "JavaScript-udemy.pdf" },
     { name: "Communication", provider: "Accenture", pdf: "/Communication.pdf" },
     { name: "Be Digital", provider: "Accenture", pdf: "/Be-Digital.pdf" },
     { name: "Ilhame", provider: "EFE", pdf: "/efe-Ilhame.jpg" },
     { name: ".NET Core", provider: "LS Vision", pdf: "/LSASP.NET.pdf" },
+    { name: "Angular Course", provider: "Maaref Platform" },
+    { name: "React.js Course", provider: "Maaref Platform" },
+    { name: "SQL Server Course", provider: "YouTube" },
   ];
 
   return (

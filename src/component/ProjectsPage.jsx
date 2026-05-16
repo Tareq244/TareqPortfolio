@@ -65,6 +65,17 @@ const ProjectsPage = React.forwardRef((props, ref) => {
       link: true,
       href: "https://github.com/Tareq244/LiveFeed"
     },
+    {
+      name: "Helper File",
+      details: [
+        "ASP.NET MVC web application",
+    "Provides users with guidance and explanations for system features",
+    "Helps users navigate and understand platform functionalities",
+    "Improves user experience through clear feature documentation and support"
+      ],
+      link: true,
+      href: "https://github.com/Tareq244/Helper-Files.git"
+    },
   ];
 
   return (
