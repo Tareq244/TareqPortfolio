@@ -21,6 +21,8 @@ const Summary = React.forwardRef((props, ref) => {
           <a href="#" target="_blank">Portfolio</a>
           <span>||</span>
           <a href="https://www.npmjs.com/package/@tareqalsadaqa/subtitleinbubble" target="_blank">NPM</a>
+          <span>||</span>
+          <a href="https://www.nuget.org/packages/ImageWatermark/" target="_blank">NuGet</a>
         </div>
       </div>
 
